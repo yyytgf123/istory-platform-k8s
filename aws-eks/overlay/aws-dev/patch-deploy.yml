@@ -8,3 +8,8 @@ metadata:
     istory.io/infra: aws
 spec:
   replicas: 1
+  template:
+    spec:
+      containers:
+        - name: istory
+          image: ddoocckker123/istory:latest # 변경필요
